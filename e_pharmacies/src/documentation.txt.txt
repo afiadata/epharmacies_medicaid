@@ -1,0 +1,416 @@
+Data for: "The good, the bad, and the ugly: Compliance of e-pharmacies serving India and Kenya with regulatory requirements and best practices"
+Persistent Identifier
+10.17037/DATA.00004475
+
+Description
+The aim of this study was to assess the characteristics and business practices of e-pharmacies, and their compliance with global best practice guidelines and national regulatory requirements
+
+Study staff reviewed the websites and apps of all e-pharmacies serving retail customers in two Low and Middle Income Countries (LMICs): (1) India, which has a very large e-pharmacy market, but is yet to enact formal e-pharmacy regulations, and (2) Kenya, which has a smaller market, but with developed regulations. All data used in this analysis was available in the public domain at the time of data collection.
+
+The overarching project of which this analysis was part received approval by the ethics committees of The George Institute for Global Health (Project number: 26/2022), Strathmore University Business School (Ref. no: SU-ISERC1475/22), and the London School of Hygiene & Tropical Medicine (Ref. no: 28055).
+
+Codebook
+The dataset contains variables outlined in the table below.
+
+Variable Name	Variable Label	Answer Label	Answer Code	Variable Type
+Country	Country (multiple countries separated by a comma)	 	 	String
+record_id	Record ID	 	 	Numeric
+constitution	3. Details of the e-pharmacy constitution (Information on directors/supervisors/chairmen/boards etc.)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+phy_add	6. Is there any physical address for the e-pharmacy?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+sec_address	7. Is there a second address?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+state/county	8. State (Capture the state wherein the e-pharmacy's physical address is located in lowercase; separate multiple states with a comma without spaces. "np" if not provided.)	 	 	String
+country	9. Country (multiple countries separated by a comma)	 	 	String
+authorization_info	10. Does the e-pharmacy provide information on authorization from the official licensing body (CDSCO for India)? (refer to "about us" or "FAQ" pages of the e-pharmacy)	 	 	Numeric
+ 	 	Yes, the site states that they are registered	1	 
+ 	 	Yes, the site states that they are registered and specifies the authorizing body	2	 
+ 	 	No	3	 
+reg_no	11. Registration number or the health safety code of the e-pharmacy ("np" if not provided).	 	 	String
+ 	 	Yes	Yes	 
+ 	 	Not provided	np	 
+pharmacist_details	12. Does the e-pharmacy display the name and registration details of the pharmacist(s) involved? (refer to "about us" or "FAQ" pages of the e-pharmacy)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+e_pharm_app	13. Does the e-pharmacy have an app?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+track_dlvry	14. Does the e-pharmacy website state that they provide any tracking of delivery? (Check FAQ or customer support sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+eng_lang	Is the website accessible in the English language?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+lang_opt	15. Are other language options present?	 	 	 
+ 	 	No	0	 
+ 	 	Yes	1	 
+other_lang	If yes, please specify (Separate multiple languages with a comma without space)	 	 	String
+tele_helpline	16. Is a telephonic helpline provided?	 	 	 
+ 	 	Yes, toll free	 	1
+ 	 	Yes, unspecified	2
+chat___1	17a. Is chat option (live or bot) available for customers? Yes, on the website	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+chat___2	17b. Is chat option (live or bot) available for customers? Yes on Whatsapp	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+chat___3	17c. Is chat option (live or bot) available for customers? No	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+faq	18. Does the e-pharmacy provide an FAQ section? (Check "FAQ" or "Help")	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+complaints	19. Does the e-pharmacy display the procedure for complaints in detail? (check FAQ, "complaints", "terms and conditions/policies"; or "contact us" pages)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+review_testimonials	20. Are customer reviews or testimonials visible on the e-pharmacy website?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+return_policy	21. Does the e-pharmacy display the return policy? (check FAQ, "refunds", or "contact us" pages)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+privacy_policy	22. Does the e-pharmacy display customers' privacy policy?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+secur_encrypt	23. Does the e-pharmacy display any certificates of security/encryption? (E.g., Kenya: Extended Validation SSL (EV-SSL) certificate)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+encrypt_certif	If yes, please specify the certificate	 	 	String
+pay_gateway	24. Is a secure payment gateway present? (Redirection to a separate page for payment)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ 	 	Unclear	2	 
+pay_options___1	25a. Available payment options: Credit Card	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___2	25b. Available payment options: Debit Card	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___3	25c. Available payment options: Net Banking	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___4	25d. Available payment options: Store Credit/Wallet	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___5	25e. Available payment options: Cash on delivery	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___6	25f. Available payment options: UPI	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___7	25g. Available payment options: Electronic wallet	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___8	25h. Available payment options: mPesa/Mobile Money	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___9	25i. Available payment options: PayPal	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___10	25j. Available payment options: Health insurance	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options___11	25k. Available payment options: Others	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+electronic_specify	If electronic wallet, please specify. ("np" if not specified)	Open ended	 	String
+other_pay	If others, specify the payment method	Open ended	 	String
+where_deliver	26. Where all does the e-pharmacy deliver to?	 	 	Numeric
+ 	 	Less than 50% of Indian states	1	 
+ 	 	More than 50% of Indian states	2	 
+ 	 	All over India	3	 
+ 	 	India and Neighbours	4	 
+ 	 	Global	5	 
+ 	 	Unclear	6	 
+ 	 	Other (please specify)	7	 
+other_geo_cover	If other, please specify the coverage	Open ended	 	String
+otc_sale	27. Are OTC medicines available for sale? Look for various OTC medicines, if even one is available FOR SALE, go with "Yes" E.g., Paracetamol, pantoprazole, diclofenac, cetirizine, clotrimazole	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pom_sale	28. Are prescription-only medicines available for sale? Look for various POMs, if even one POM is available FOR SALE, go with "Yes" e.g., Amlodipine, insulin, cefixime, atenolol, pregabalin, phenytoin	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+controlled_sale	29. Are narcotic or controlled substances available for sale? Look for various narcotic or controlled drugs, if even one is available FOR SALE, go with "Yes" E.g., Tramadol, alprazolam, lorazepam, zolpidem, fentanyl	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+herbal_altmed	30. Does the e-pharmacy sell herbal/ alternative medicines? (Check whether "herbal products" or specific products such as arsenicum album, tulsi, aswagandha, or sarpagandha are available for sale)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+nutra	31. Does the e-pharmacy sell nutraceuticals? (Check sections or whether vitamins or other nutritional supplements are available)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+indicat_use	32. Does the e-pharmacy provide information on indication or use? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ 	 	Incomplete	2	 
+side_effects	33. Does the e-pharmacy provide information on drug's side effects? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+drug_interactions	34. Does the e-pharmacy provide information on drug interactions and contraindications? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ 	 	Interactions only	2	 
+ 	 	Contraindications only	3	 
+online_consult	35. Does the e-pharmacy offer online consultation with a doctor? (Check FAQ, "about", "services provided" or other relevant sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+lab_services	36. Does the e-pharmacy provide laboratory services? (Check FAQ, "about", "services provided" or other relevant sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+prescription_upload___1	37a. Does e-pharmacy provide the option to upload prescription: Yes, on site	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+prescription_upload___2	37b. Does e-pharmacy provide the option to upload prescription: Yes, WhatsApp	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+prescription_upload___3	37c. Does e-pharmacy provide the option to upload prescription: Yes, email	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+prescription_upload___4	37d. Does e-pharmacy provide the option to upload prescription: Other	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+prescription_upload___5	37e. Does e-pharmacy provide the option to upload prescription: No	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+other_prescription_upload	If other, please specify	 	 	String
+refill_remind	38. Does the e-pharmacy state that they provide refill reminders?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ad_pres_drugs	39. Does the website have advertisements of any prescription drugs? (Check on the home page only)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ad_other_prod	40. Does the website have advertisements of other products? (Check on the home page for ads on OTC creams/gels, sanitary pads etc)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+discount_coupon	41. Are there advertisements or announcements of discounts/coupons/offers? (Examine the advertisements, "offers" sections etc.)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+discount_meds	If yes, are there discounts/offers specifically for medicines? Use your judgment to determine whether offers apply to medicines or not.	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+certi_accredi	42. Does the e-pharmacy provide information on certifications/accreditations assuring quality? (E.g., LegitScript, EU Logo, NABP accreditation, or similar)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+certification_specify	If yes, please specify the certification/accreditation	Open ended	 	String
+promo_social_media___1	43a. Does the e-pharmacy have social media presence? Twitter	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___2	43b. Does the e-pharmacy have social media presence? Instagram	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___3	43c. Does the e-pharmacy have social media presence? Facebook	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___4	43d. Does the e-pharmacy have social media presence? TikTok	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___5	43e. Does the e-pharmacy have social media presence? Youtube	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___6	43f. Does the e-pharmacy have social media presence? LinkedIn	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___7	43g. Does the e-pharmacy have social media presence? Other	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+promo_social_media___8	43h. Does the e-pharmacy have social media presence? None	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+other_social	If other, please specify	Open ended	 	String
+e_pharmacy_website_complete	e-pharmacy website complete?	 	 	Numeric
+ 	 	Incomplete	0	 
+ 	 	Unverified	1	 
+ 	 	Complete	2	 
+INSTRUMENT: e-Pharmacy App	 	 	 	 
+constitution_app	2. Details of the e-pharmacy constitution (Information on directors/supervisors/chairmen/boards etc.)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+phy_add_app	5. Is there any physical address for the e-pharmacy?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+sec_address_app	6. Is there a second address?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+state_app	7. State (Capture the state wherein the e-pharmacy's physical address is located in lowercase; separate multiple states with a comma without spaces. "np" if not provided.)	 	 	String
+country_app	8. Country If more than one country, capture all, separated by a comma without space.	 	 	String
+store_app___1	9a. Which app stores can the e-pharmacy app be downloaded from? Google Playstore	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+store_app___2	9b. Which app stores can the e-pharmacy app be downloaded from? App Store (iOS)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+downloads_app	Capture the number of downloads on Google Playstore. As provided in the PlayStore, e.g., 50M+ etc.	Open ended	 	String
+authorization_info_app	10. Does the e-pharmacy provide information on authorization from the official licensing body (CDSCO for India and PPB for Kenya)? (refer to "about us" or "FAQ" pages of the e-pharmacy)	 	 	Numeric
+ 	 	Yes, the app states that they are registered	1	 
+ 	 	Yes, the app states that they are registered and specifies the authorizing body	2	 
+ 	 	No	3	 
+reg_no_app	11. Registration number or the health safety code of the e-pharmacy "np" if not provided.	Open ended	 	String
+pharmacist_details_app	12. Does the e-pharmacy display the name and registration details of the pharmacist(s) involved? (refer to "about us" or "FAQ" pages of the e-pharmacy)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+track_dlvry_app	13. Does the e-pharmacy app state that they provide any tracking of delivery? (Check FAQ or customer support sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+eng_lang_app	Is the website accessible in the English language?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+lang_opt_app	14. Are other language options present?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+other_lang_app	If yes, please specify (Separate multiple languages with a comma without space)	Open ended	 	String
+tele_helpline_app	15. Is a telephonic helpline provided?	 	 	Numeric
+ 	 	Yes, toll free	1	 
+ 	 	Yes, unspecified	2	 
+ 	 	Yes, paid	3	 
+ 	 	No	4	 
+chat_app___1	16a. Is chat option (live or bot) available for customers? Yes, on the app	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+chat_app___2	16b. Is chat option (live or bot) available for customers? Yes on Whatsapp	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+chat_app___3	16c. Is chat option (live or bot) available for customers? No	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+faq_app	17. Does the e-pharmacy provide an FAQ section? (Check "FAQ" or "Help")	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+complaints_app	18. Does the e-pharmacy display the procedure for complaints in detail? (check FAQ, "complaints", or "contact us" pages, and copy paste the procedure for complaints)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+review_testimonials_app	19. Are customer reviews or testimonials visible on the e-pharmacy app?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+return_policy_app	20. Does the e-pharmacy display the return policy? (check FAQ, "refunds", or "contact us" pages)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+privacy_policy_app	21. Does the e-pharmacy display customers' privacy policy?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+secur_encrypt_app	22. Does the e-pharmacy display any certificates of security/encryption? (E.g., Kenya: Extended Validation SSL (EV-SSL) certificate)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+encrypt_certif_app	If yes, please specify the certificate	Open ended	 	String
+pay_options_app___1	23a. Available payment options 1: Credit Card	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___2	23b. Available payment options 2: Debit Card	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___3	23c. Available payment options 3: Net Banking	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___4	23d. Available payment options 4: Store Credit/Wallet	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___5	23e. Available payment options 5: Cash on delivery	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___6	23f. Available payment options 6: UPI	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___7	23g. Available payment options 7: Electronic wallet	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___8	23h. Available payment options 8: mPesa/Mobile Money	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___9	23i. Available payment options 9: PayPal	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___10	23j. Available payment options 10: Health insurance	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pay_options_app___11	23k. Available payment options 11: Others	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+electronic_specify_app	If electronic wallet, please specify. (NR if not specified on the app)	Open ended	 	String
+other_pay_app	If others, specify the payment method	Open ended	 	String
+where_deliver_app	24. Where all does the e-pharmacy deliver to?	 	 	Numeric
+ 	 	Less than 50% of the Indian states	1	 
+ 	 	More than 50% of the Indian states	2	 
+ 	 	All over India	3	 
+ 	 	India and Neighbours	4	 
+ 	 	Global	5	 
+ 	 	Unclear	6	 
+ 	 	Other (please specify)	7	 
+other_geo_cover_app	If other, please specify the coverage	Open ended	 	String
+otc_sale_app	25. Are OTC medicines available for sale? Look for various OTC medicines, if even one OTC medicine is available FOR SALE, go with "Yes" Paracetamol, pantoprazole, diclofenac, cetirizine, clotrimazole	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+pom_sale_app	26. Are prescription-only medicines available for sale? Look for various POMs, if even one POM is available FOR SALE, go with "Yes" e.g., Amlodipine, insulin, cefixime, atenolol, pregabalin, phenytoin	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+controlled_sale_app	27. Are narcotic or controlled substances available for sale? Look for various narcotic or controlled drugs, if even one is available FOR SALE, go with "Yes" E.g., Tramadol, alprazolam, lorazepam, zolpidem, fentanyl	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+herbal_altmed_app	28. Does the e-pharmacy sell herbal/ alternative medicines? (Check whether "herbal products" or specific products such as arsenicum album, tulsi, aswagandha, or sarpagandha are available for sale)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+nutra_app	29. Does the e-pharmacy sell nutraceuticals? (Check sections or whether vitamins or other nutritional supplements are available)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+indicat_use_app	30. Does the e-pharmacy provide information on indication or use? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ 	 	Incomplete	2	 
+side_effects_app	31. Does the e-pharmacy provide information on drug's side effects? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+drug_interactions_app	32. Does the e-pharmacy provide information on drug interactions and contraindications? Look for the following tracers ONLY. If the information is available even for one tracer, go with "Yes" amlodipine/nifedipine, atenolol/metoprolol, atorvastatin, metformin, amoxicillin, azithromycin, sildenafil/tadalafil	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ 	 	Interactions only	2	 
+ 	 	Contraindications only	3	 
+online_consult_app	33. Does the e-pharmacy offer online consultation with a doctor? (Check FAQ, "about", "services provided" or other relevant sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+lab_services_app	34. Does the e-pharmacy provide laboratory services? (Check FAQ, "about", "services provided" or other relevant sections)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+app_prescription___1	35-1. Does e-pharmacy provide the option to upload prescription? Yes, on app	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+app_prescription___2	35-2. Does e-pharmacy provide the option to upload prescription? Yes, WhatsApp	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+app_prescription___3	35-3. Does e-pharmacy provide the option to upload prescription? Yes, email	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+app_prescription___4	35-4. Does e-pharmacy provide the option to upload prescription? Other	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+app_prescription___5	35-5. Does e-pharmacy provide the option to upload prescription? No	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+other_upload	If other, please specify	 	 	String
+refill_remind_app	36. Does the e-pharmacy state that they provide refill reminders?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ad_pres_drugs_app	37. Does the app have advertisements of any prescription drugs? (Check for pop-up advertisements on any pages during app review)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+ad_other_prod_app	38. Does the app have advertisements of other products? (Check for ads on OTC creams/gels, sanitary pads etc)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+discount_coupon_app	39. Are there advertisements or announcements of discounts/coupons/offers? (Examine the advertisements, "offers" sections etc.)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+discount_meds_app	If yes, are there discounts/offers specifically for medicines?	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+certi_accredi_app	40. Does the e-pharmacy provide information on certifications/accreditations assuring quality? (E.g., LegitScript, EU Logo, NABP accreditation, or similar)	 	 	Numeric
+ 	 	No	0	 
+ 	 	Yes	1	 
+certification_specify_app	If yes, please specify the certification/accreditation:	 	 	String
+e_pharmacy_app_complete	e-pharmacy app complete?	 	 	Numeric
+ 	 	Incomplete	0	 
+ 	 	Unverified	1	 
+ 	 	Complete	2	 
+Total Visits (for the last full month, i.e. May 2023)	Total Visits (for the last full month, i.e. May 2023)	 	 	 
+Total Visits for the previous 3 months (see graph lower down for traffic over the past 3 full months, i.e.March, April, May 2023)	Total Visits for the previous 3 months (see graph lower down for traffic over the past 3 full months, i.e.March, April, May 2023)	 	 	Numeric
+Total Visits_past_3months	Total Visits for the previous 3 months (see graph lower down for traffic over the past 3 full months, i.e.March, April, May 2023)	 	 	Numeric
